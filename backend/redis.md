@@ -1,0 +1,3 @@
+# Redis Notes
+
+## Installing Redis

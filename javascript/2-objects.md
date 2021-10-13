@@ -118,3 +118,18 @@ cup['color'];
     },
   };
   ```
+
+### Methods
+
+A method is a function, defined as a property, inside an object. At least that is how I would describe it. It looks something like this:
+
+```javascript
+const cup = {
+  lidOpen: true,
+  //Below is a method
+  toggleLid: function (lidStatus) {
+    this.lidOpen = lidStatus;
+  },
+  // It sets the object's lidOpen property to whatever the parameter lidStatus is: cup.toggleLid(false)
+};
+```

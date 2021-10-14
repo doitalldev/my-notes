@@ -32,4 +32,13 @@ There are older methods you can use to access elements:
 
 These are still perfectly valid, and you may see them in older code, but using querySelector is much mor efficient and cleaner.
 
-### Modifying Element Classes
+### Attributes
+When grabbing attributes, we will get back a NamedNodeMap which is NOT and array and won't accept array methods. It is a key/value pair of strings. 
+
+For attributes, we have dedicated methods:
+```javascript
+element.getAttribute('attributeName'); // returns the value of the attribute
+element.hasAttribute('attributeName'); // returns true of false if the attribute exists
+element.setAttribute('attributeName', 'attributeValue'); // sets a new or modifies an existing attribute
+element.removeAttribute('attributeName'); // removes and attribute
+```

@@ -133,3 +133,36 @@ const cup = {
   // It sets the object's lidOpen property to whatever the parameter lidStatus is: cup.toggleLid(false)
 };
 ```
+### Classes
+
+Classes work as a template for an object type. When you create a new object from a class, the object automatically gets the properties and methods from that class.
+
+When changing a property or method of the class, that change will cascade to every object made with that class.
+
+There are 2 ways to create a class:
+
+- Declaration: class Name{}
+- Expression: const Name = class {}
+
+Class Example:
+
+```javascript
+class Bucket {
+  //The constructor is exactly as the name suggests. It "constructs" the object created from this class 
+  // We define the parameters in the ()
+  // Then define the properties in {}
+  constructor(name, color, handle, spout, lid) {
+    // Define properties
+    this.name = name;
+    this.color = color;
+    this.handle = handle;
+    this.spout = spout;
+    this.lid = lid;
+  }
+}
+
+// then we can use the class to create a new object with the same properties:
+
+const myBucket = new Bucket("My Bucket", "Blue", true, "Wide", "Open")
+
+```

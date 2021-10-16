@@ -42,3 +42,17 @@ element.hasAttribute('attributeName'); // returns true of false if the attribute
 element.setAttribute('attributeName', 'attributeValue'); // sets a new or modifies an existing attribute
 element.removeAttribute('attributeName'); // removes and attribute
 ```
+The class is also show up as an attribute. Of course there are dedicated methods for this, but it's possible.
+
+### Inline Styles
+We can of course set inline style in HTML:
+```html
+<div style="color: black;">Hi</div>
+```
+But what about using Javascript to set or modify those styles?
+
+With "querySelector" we can target the element, and use dot notation to acces the style property, then target color:
+```javascript
+document.querySelector('div').style.color = "blue";
+```
+And now our div would be blue.

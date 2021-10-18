@@ -70,9 +70,9 @@ return numbers + otherNumbers;
 }
 
 function1(1,2, function0)
-
-
 ```
+
+What happens is that when we pass function0 in when calling function1, we are passing in the selector for that function, not actually running it. It would run if we added the parenthesis.
 
 
 

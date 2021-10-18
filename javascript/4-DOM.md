@@ -56,3 +56,5 @@ With "querySelector" we can target the element, and use dot notation to acces th
 document.querySelector('div').style.color = "blue";
 ```
 And now our div would be blue.
+
+There is also a cssText property, this contains the entirety of the style attribute, but it is recommended to stick to tergeting the property individually.

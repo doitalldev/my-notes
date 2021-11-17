@@ -1,10 +1,10 @@
-## What is AWS?
+# What is AWS?
 
 A collection of cloud computing services that can be run together or seperately.
 
 AWS is a provider of cloud services.
 
-### Why use AWS?
+## Why use AWS?
 
 #### Cost
 
@@ -21,3 +21,24 @@ You can fail by being successful. It takes a lot of work to normally add servers
 #### Global
 
 On premise means more latency for customers further away. With cloud, your application can be hosted on servers in a closer location to the end user, there is also the added benefit of increased redundancy.
+
+
+# Understanding the core services of AWS
+
+The main services that people tend to use with AWS are:
+-   EC2
+-   S3
+-   RDS
+-   Route53
+
+## EC2 - Elastic Compute Cloud
+### What can you do with it?
+
+-   Run applications
+-   Virtual desktop
+-   3rd party software
+-   Computing in general
+
+It is computing services operating in remote data servers around the world.
+
+
